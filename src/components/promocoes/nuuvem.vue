@@ -1,10 +1,23 @@
 <template>
-  <section class="promocoes">
-    <div class="box" v-for="promo in promocoes" :key="promocoes">
-      <div class="card">
-        {{promo.nome}}
-      </div>
+  <section class="promocoes wrap">
+    <div class="cards" v-for="promo in promocoes" :key="promocoes">
+      <a :href="promo.url_nuuvem" target="_blank">
+        <li class="card wrap">
+          <img :src="promo.img" alt="" class="img-fluid rounded">
+          <p class="nome">{{promo.nome}}</p>
+          <div class="valores">
+            <div class="desconto">{{promo.desconto}}</div>
+            <div class="preco">
+              <span class="antigo s">{{promo.valor.antigo}}</span>
+              <span class="novo">R$ {{promo.valor.novo_integer}}{{promo.valor.novo_decimal}}</span>
+            </div>
+          </div>
+        </li>
+      </a>
     </div>
+    <!-- <div class="more">
+      <p class="fa fa-chevron-circle-down fa-2x"></p>
+    </div> -->
   </section>
 </template>
 <script>
