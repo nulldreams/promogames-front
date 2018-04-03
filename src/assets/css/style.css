@@ -138,3 +138,20 @@ section {
 .principal .logo {
   margin-bottom: 50px;
 }
+
+.more {
+  display: flex;
+  justify-content: center;
+
+  margin: 50px;
+}
+
+.more a {
+  background-color: #5f27cd;
+  color: #fff;
+  font-family: "GothamRnd-Book", sans-serif;
+  text-transform: uppercase;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+}
