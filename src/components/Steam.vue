@@ -1,5 +1,10 @@
 <template>
   <div>
+    <div class="hero">
+      <div class="logo">
+        <img class="mx-auto d-block" src="../assets/images/steam.png">
+      </div>
+    </div>
     <steam/>
   </div>
 </template>

@@ -1,8 +1,6 @@
 <template>
   <div class="principal">
-    <div class="logo">
-      <img class="mx-auto d-block" src="./assets/logo.png">
-    </div>
+    <!-- <div class="hero"></div> -->
     <router-view/>
   </div>
 </template>

@@ -144,10 +144,6 @@ section {
   height: 30px;
 }
 
-.principal .logo {
-  margin-bottom: 50px;
-}
-
 .more {
   display: flex;
   justify-content: center;
@@ -156,11 +152,48 @@ section {
 }
 
 .more a {
-  background-color: #5f27cd;
+  /* background-color: #5f27cd; */
+  background: linear-gradient(90deg, #485563, #75489f);
   color: #fff;
   font-family: "GothamRnd-Book", sans-serif;
   text-transform: uppercase;
   border: none;
   padding: 20px;
   cursor: pointer;
+}
+
+.hero {
+  /* background: linear-gradient(90deg, #f0027f, #75489f); */
+  background: linear-gradient(90deg, #485563, #75489f);
+  /* background-image: linear-gradient(to right, #243949 0%, #517fa4 100%); */
+  min-height: 35vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+/* .hero:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 308px;
+  background: url(../images/wave.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.hero .titulo {
+  color: #fff;
+  font-family: 'GothamRnd-Medium', sans-serif;
+  text-transform: uppercase;
+  margin: auto;
+  font-size: 45px;
+}
+
+.logo {
+  margin-top: auto;
+  margin-bottom: auto;
 }

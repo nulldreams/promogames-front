@@ -1,17 +1,15 @@
 <template>
   <div>
-    <nuuvem/>
+    <!-- <div class="hero">
+      <h1 class="titulo">titulo</h1>
+    </div> -->
   </div>
 </template>
 
 <script>
-  import nuuvem from '@/components/promocoes/nuuvem'
-  
-  export default {
-    name: 'principal',
-    components: {
-      nuuvem
-    }
-  }
+export default {
+  name: "principal",
+  components: {}
+};
 </script>
 
